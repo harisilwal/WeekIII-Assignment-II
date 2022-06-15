@@ -43,7 +43,7 @@ const game = {
 let players1 = game.players[0];
 let players2 = game.players[1];
 let [team1Gk, ...team1Players] = players1;
-let [team2Gk, ...team2Players] = players1;
+let [team2Gk, ...team2Players] = players2;
 let allPlayers = game.players;
 
 let players1Final = players1.push('Thiago', 'Coutinho', 'Perisic');
